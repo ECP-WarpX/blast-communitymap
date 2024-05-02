@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Advanced Modeling Program",
+          "contacts": [
+              "Jean-Luc Vay",
+              "Remi Lehe",
+              "Axel Huebl"
+          ],
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
+          "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.87891,
+          -122.24937
+        ]
+      }
+    }
+  ]
+}
