@@ -110,6 +110,186 @@
     {
       "type": "Feature",
       "properties": {
+          "name": "LANL",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Los Alamos National Laboratory",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2649,
+          35.8184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "BNL",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Brookhaven National Laboratory",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8719,
+          40.8770
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "LCLS and LCLS-II",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "SLAC National Accelerator Laboratory",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.20790,
+          37.41613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Argonne National Accelerator Laboratory",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Argonne National Accelerator Laboratory",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9787,
+          41.7096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Fermilab",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Fermilab",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2527,
+          41.8316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "JLab",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Thomas Jefferson National Accelerator Facility",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4817,
+          37.0966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "NIU",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Northern Illinous University",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7831,
+          41.9369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "MSU",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Michigan State University",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4840,
+          42.7045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "ASU",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Arizona State University",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9307,
+          33.4222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
           "name": "Laboratoire Interactions, Dynamiques et Lasers",
           "contacts": [
               "Henri Vincenti",
