@@ -16,10 +16,82 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.87891,
-          -122.24937
+          -122.25355438176132,
+          37.87930847890517
         ]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "YYY",
+          "contacts": [
+              "XXX"
+          ],
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
+          "institution": "Lawrence Livermore National Laboratory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25355438176132,
+          37.87930847890517
+        ]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "YYY",
+          "contacts": [
+              "XXX"
+          ],
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
+          "institution": "DESY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.878202263435497,
+          53.575294169766124
+        ]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "YYY",
+          "contacts": [
+              "XXX"
+          ],
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
+          "institution": "Université Paris-Saclay, CEA, LIDYL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.176020302614063,
+          48.704736715511785
+        ]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "YYY",
+          "contacts": [
+              "XXX"
+          ],
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
+          "institution": "TAE Technologies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.65123902511594,
+          33.67634020144486
+        ]
+      }
+    }    
   ]
 }
