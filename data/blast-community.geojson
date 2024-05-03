@@ -11,7 +11,9 @@
               "Axel Huebl"
           ],
           "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
-          "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division"
+          "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
+          "dev-codes": ["warpx", "impactx", "hipace++", "impact", "impactx", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi"],
+          "user-codes": ["warpx", "impactx", "hipace++", "impact", "impactx", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi", "wake-t"]
       },
       "geometry": {
         "type": "Point",
@@ -24,12 +26,16 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "YYY",
+          "name": "Lawrence Livermore National Laboratory",
           "contacts": [
-              "XXX"
+              "David P. Grote",
+              "Justin Angus",
+              "Andreas Kemp"
           ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
-          "institution": "Lawrence Livermore National Laboratory"
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "high performance computing"],
+          "institution": "Lawrence Livermore National Laboratory",
+          "dev-codes": ["warpx"],
+          "user-codes": ["warpx", "openpmd"]
       },
       "geometry": {
         "type": "Point",
@@ -42,12 +48,15 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "YYY",
+          "name": "Deutsches Elektronen-Synchrotron DESY",
           "contacts": [
-              "XXX"
+              "Maxence Thévenet",
+              "CFEL team"
           ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
-          "institution": "DESY"
+          "domain": ["laser-plasma", "beams", "accelerators", "numerics", "high performance computing"],
+          "institution": "Deutsches Elektronen-Synchrotron DESY",
+          "dev-codes": ["warpx", "hipace++", "lasy", "optimas", "wake-t"],
+          "user-codes": ["warpx", "hipace++", "impact", "amrex", "lasy", "openpmd", "optimas", "wake-t"]
       },
       "geometry": {
         "type": "Point",
@@ -60,12 +69,15 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "YYY",
+          "name": "Université Paris-Saclay, CEA, LIDYL",
           "contacts": [
-              "XXX"
+              "Henri Vincenti",
+              "Luca Fedeli"
           ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
-          "institution": "Université Paris-Saclay, CEA, LIDYL"
+          "domain": ["laser-plasma", "beams", "fusion", "qed", "high performance computing"],
+          "institution": "Université Paris-Saclay, CEA, LIDYL",
+          "dev-codes": ["warpx", "lasy", "picsar-qed"],
+          "user-codes": ["warpx", "amrex", "lasy", "openpmd", "picsar-qed"]
       },
       "geometry": {
         "type": "Point",
@@ -78,12 +90,15 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "YYY",
+          "name": "TAE Technologies",
           "contacts": [
-              "XXX"
+              "Sean Dettrick",
+              "Roelof Groenewald"
           ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
-          "institution": "TAE Technologies"
+          "domain": ["beams", "fusion", "cloud computing", "high performance computing"],
+          "institution": "TAE Technologies",
+          "dev-codes": ["warpx", "openpmd", "picmi"],
+          "user-codes": ["warpx", "openpmd", "picmi", "amrex", "pyamrex"]
       },
       "geometry": {
         "type": "Point",
