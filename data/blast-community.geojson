@@ -12,14 +12,36 @@
           ],
           "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
           "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
-          "dev-codes": ["warpx", "impactx", "hipace++", "impact", "impactx", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi"],
-          "user-codes": ["warpx", "impactx", "hipace++", "impact", "impactx", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi", "wake-t"]
+          "dev-codes": ["warpx", "impactx", "hipace++", "impact", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi"],
+          "user-codes": ["warpx", "impactx", "hipace++", "impact", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi", "wake-t"]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.25355438176132,
-          37.87930847890517
+          -122.24938,
+          37.87893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "BELLA Center",
+          "contacts": [
+              "Eric Esarey",
+              "Carl Schroeder",
+              "Jeroen van Tilborg"
+          ],
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "high performance computing"],
+          "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
+          "dev-codes": [],
+          "user-codes": ["warpx", "impactx", "hipace++", "ablastr", "pyamrex", "lasy", "openpmd", "optimas", "picmi", "wake-t"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.24998,
+          37.87932
         ]
       }
     },
