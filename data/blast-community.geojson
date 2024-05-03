@@ -48,10 +48,9 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "Deutsches Elektronen-Synchrotron DESY",
+          "name": "MPA Plasma Accelerators",
           "contacts": [
-              "Maxence Thévenet",
-              "CFEL team"
+              "Maxence Thévenet"
           ],
           "domain": ["laser-plasma", "beams", "accelerators", "numerics", "high performance computing"],
           "institution": "Deutsches Elektronen-Synchrotron DESY",
@@ -63,6 +62,26 @@
         "coordinates": [
           9.878202263435497,
           53.575294169766124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "CFEL",
+          "contacts": [
+              "CFEL team"
+          ],
+          "domain": ["beams", "accelerators", "fel"],
+          "institution": "Deutsches Elektronen-Synchrotron DESY",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.88485,
+          53.57916
         ]
       }
     },
