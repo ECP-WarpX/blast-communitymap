@@ -318,7 +318,7 @@
           ],
           "domain": ["beams", "fusion", "cloud computing", "high performance computing"],
           "institution": "TAE Technologies",
-          "dev-codes": ["warpx", "openpmd", "picmi"],
+          "dev-codes": ["warpx", "picmi"],
           "user-codes": ["warpx", "openpmd", "picmi", "amrex", "pyamrex"]
       },
       "geometry": {
@@ -326,6 +326,87 @@
         "coordinates": [
           -117.65123902511594,
           33.67634020144486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Avalanche",
+          "contacts": [
+              "Robin Langtry"
+          ],
+          "domain": ["fusion", "cloud computing", "high performance computing"],
+          "institution": "Avalanche",
+          "dev-codes": [],
+          "user-codes": ["warpx", "openpmd", "picmi"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29915,
+          47.52176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Zap Energy",
+          "contacts": [
+              "Peter Stoltz"
+          ],
+          "domain": ["fusion", "cloud computing", "high performance computing"],
+          "institution": "Zap Energy",
+          "dev-codes": [],
+          "user-codes": ["warpx", "openpmd", "picmi"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26179,
+          47.94405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Modern Electron",
+          "contacts": [
+              "Peter Scherpelz",
+              "Roelof Groenewald"
+          ],
+          "domain": ["energy", "cloud computing", "high performance computing"],
+          "institution": "Modern Electron",
+          "dev-codes": ["warpx", "picmi"],
+          "user-codes": ["warpx", "openpmd", "picmi"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.18407,
+          47.76580
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Laboratory for Laser Energetics",
+          "contacts": [
+              "John Palastro"
+          ],
+          "domain": ["fusion", "high performance computing"],
+          "institution": "University of Rochester",
+          "dev-codes": ["warpx"],
+          "user-codes": ["warpx", "openpmd"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.63253,
+          43.11317
         ]
       }
     }
