@@ -26,6 +26,26 @@
     {
       "type": "Feature",
       "properties": {
+          "name": "Center for Computational Sciences and Engineering",
+          "contacts": [
+              "Ann Almgren"
+          ],
+          "domain": ["numerics", "high performance computing"],
+          "institution": "Lawrence Berkeley National Laboratory - Applied Mathematics & Computational Research Division",
+          "dev-codes": ["warpx", "artemis", "impactx", "hipace++", "amrex", "pyamrex"],
+          "user-codes": ["warpx", "artemis"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25266,
+          37.87715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
           "name": "BELLA Center",
           "contacts": [
               "Eric Esarey",
@@ -150,14 +170,15 @@
     {
       "type": "Feature",
       "properties": {
-          "name": "LCLS and LCLS-II",
+          "name": "LCLS, LCLS-II, FACET-II",
           "contacts": [
+              "Cho-Kuen Ng",
               "accelerator team"
           ],
           "domain": ["beams", "accelerators"],
           "institution": "SLAC National Accelerator Laboratory",
-          "dev-codes": [],
-          "user-codes": ["impact"]
+          "dev-codes": ["warpx"],
+          "user-codes": ["impact", "warpx"]
       },
       "geometry": {
         "type": "Point",
@@ -407,6 +428,26 @@
         "coordinates": [
           -77.63253,
           43.11317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Helmholtz Institute Jena",
+          "contacts": [
+              "Bin Liu"
+          ],
+          "domain": ["laser-plasma", "high performance computing"],
+          "institution": "Helmholtz Institute Jena",
+          "dev-codes": ["warpx"],
+          "user-codes": ["warpx", "openpmd"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.58047,
+          50.93445
         ]
       }
     }
