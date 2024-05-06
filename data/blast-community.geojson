@@ -662,7 +662,7 @@
           "domain": ["laser-plasma", "beams", "accelerators", "high performance computing"],
           "institution": "University of Oslo",
           "dev-codes": [],
-          "user-codes": ["impactx", "openpmd", "wake-t"]
+          "user-codes": ["impactx", "hipace++", "openpmd", "wake-t"]
       },
       "geometry": {
         "type": "Point",
