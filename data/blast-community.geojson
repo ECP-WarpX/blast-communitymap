@@ -52,7 +52,7 @@
               "Carl Schroeder",
               "Jeroen van Tilborg"
           ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "high performance computing"],
+          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "fel", "high performance computing"],
           "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
           "dev-codes": [],
           "user-codes": ["warpx", "impactx", "hipace++", "ablastr", "pyamrex", "lasy", "openpmd", "optimas", "picmi", "wake-t"]
@@ -62,6 +62,26 @@
         "coordinates": [
           -122.24998,
           37.87932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Next Generation Light Source (NGLS)",
+          "contacts": [
+              "NGLS team"
+          ],
+          "domain": ["fel", "beams", "accelerators", "high performance computing"],
+          "institution": "Lawrence Berkeley National Laboratory",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.24856,
+          37.87575
         ]
       }
     },
