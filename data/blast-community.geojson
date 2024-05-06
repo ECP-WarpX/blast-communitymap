@@ -490,6 +490,26 @@
           50.93445
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "High Energy Physics (HEP) - Department of Physics",
+          "contacts": [
+              "Carl Andreas Lindstrøm"
+          ],
+          "domain": ["laser-plasma", "beams", "accelerators", "high performance computing"],
+          "institution": "University of Oslo",
+          "dev-codes": [],
+          "user-codes": ["impactx", "openpmd", "wake-t"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.71969,
+          59.93757
+        ]
+      }
     }
   ]
 }
