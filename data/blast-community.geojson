@@ -150,6 +150,26 @@
     {
       "type": "Feature",
       "properties": {
+          "name": "CASUS",
+          "contacts": [
+              "Michael Bussmann"
+          ],
+          "domain": ["laser-plasma"],
+          "institution": "Center for Advanced Systems Understanding (CASUS)",
+          "dev-codes": ["openpmd"],
+          "user-codes": ["openpmd"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.99061,
+          51.15687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
           "name": "LANL",
           "contacts": [
               "accelerator team"
