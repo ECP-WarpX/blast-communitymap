@@ -671,6 +671,26 @@
           59.93757
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "Research Technologies Group",
+          "contacts": [
+              "Erik Schnetter"
+          ],
+          "domain": ["astrophysics", "high performance computing"],
+          "institution": "Perimeter Institute for Theoretical Physics",
+          "dev-codes": ["openpmd"],
+          "user-codes": ["openpmd"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.52764,
+          43.46539
+        ]
+      }
     }
   ]
 }
