@@ -157,7 +157,7 @@
           "domain": ["beams", "accelerators"],
           "institution": "Brookhaven National Laboratory",
           "dev-codes": [],
-          "user-codes": ["impact"]
+          "user-codes": ["impact", "beambeam3d"]
       },
       "geometry": {
         "type": "Point",
@@ -434,12 +434,13 @@
       "properties": {
           "name": "CERN",
           "contacts": [
-              "Lorenzo Giacomel"
+              "Lorenzo Giacomel",
+              "accelerator team"
           ],
           "domain": ["beams", "accelerator", "high performance computing"],
           "institution": "CERN",
           "dev-codes": ["warp", "warpx"],
-          "user-codes": ["warp", "warpx", "openpmd", "picmi", "amrex", "pyamrex"]
+          "user-codes": ["warp", "warpx", "openpmd", "picmi", "amrex", "pyamrex", "beambeam3d"]
       },
       "geometry": {
         "type": "Point",
