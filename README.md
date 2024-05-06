@@ -1,6 +1,7 @@
 # Map of BLAST Users, Science Applications & Contributors
 
-[![See Map](https://img.shields.io/badge/live-communitymap-brightgreen.svg)](https://ECP-WarpX.github.io/blast-communitymap/)
+<!-- [![See Map](https://img.shields.io/badge/live-communitymap-brightgreen.svg)](https://ECP-WarpX.github.io/blast-communitymap/) -->
+[![See Map](https://img.shields.io/badge/live-communitymap-brightgreen.svg)](https://github.com/ECP-WarpX/blast-communitymap/blob/gh-pages/data/blast-community.geojson)
 [![Add Yourself](https://img.shields.io/badge/add-yourself-blue.svg)](https://github.com/ECP-WarpX/blast-communitymap/issues/new)
 
 This map documents [Beam, Plasma & Accelerator Simulation Toolkit (BLAST)](https://blast.lbl.gov) contributors, collaborators and users.
@@ -22,3 +23,4 @@ Another important way to give back to the BLAST community is by properly citing 
 - [WarpX](https://warpx.readthedocs.io/en/latest/acknowledge_us.html)
 - [HiPACE++](https://hipace.readthedocs.io/en/latest/acknowledge_hipace.html)
 - [ImpactX](https://impactx.readthedocs.io/en/latest/acknowledge_us.html)
+- [openPMD](https://openpmd-api.readthedocs.io/en/latest/citation.html)
