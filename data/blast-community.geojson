@@ -311,6 +311,106 @@
     {
       "type": "Feature",
       "properties": {
+          "name": "KEK",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "KEK High Energy Accelerator Research Organization",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0716,
+          36.1547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "NSRRC",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "National Synchrotron Radiation Research Center (NSRRC)",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00026,
+          24.78228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "ESS",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "European Spallation Source",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.24723,
+          55.73409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "IBS",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Institute for Basic Science",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.38511,
+          36.37723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "name": "IHEP",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Institute of High Energy Physics",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.24353,
+          39.91123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
           "name": "Laboratoire Interactions, Dynamiques et Lasers",
           "contacts": [
               "Henri Vincenti",
