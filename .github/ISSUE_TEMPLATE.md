@@ -8,7 +8,10 @@
 
 *Are you representing a larger organization/collaboration/project where BLAST codes are regularly used in?*
 
-*If you like, do not hesitate to share what you used BLAST for!*
+*If you like, do not hesitate to share:*
+
+- BLAST codes used: ...
+- Scientific/Engineering Domain: ...
 
 ### Location
 
