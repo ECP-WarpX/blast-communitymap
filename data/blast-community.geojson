@@ -311,6 +311,26 @@
     {
       "type": "Feature",
       "properties": {
+          "name": "SBU",
+          "contacts": [
+              "accelerator team"
+          ],
+          "domain": ["beams", "accelerators"],
+          "institution": "Stony Brook University",
+          "dev-codes": [],
+          "user-codes": ["impact"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1186,
+          40.9077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
           "name": "KEK",
           "contacts": [
               "accelerator team"
