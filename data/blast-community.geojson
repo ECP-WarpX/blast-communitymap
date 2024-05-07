@@ -1031,7 +1031,7 @@
         {
             "geometry": {
                 "coordinates": [
-                    -71.09130,
+                    -71.0913,
                     42.36101
                 ],
                 "type": "Point"
@@ -1040,8 +1040,7 @@
                 "contacts": [
                     "Daniel Winklehner"
                 ],
-                "dev-codes": [
-                ],
+                "dev-codes": [],
                 "domain": [
                     "beam"
                 ],
@@ -1049,6 +1048,37 @@
                 "name": "IsoDAR experiment",
                 "user-codes": [
                     "warp"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.05040042137869,
+                    44.349724800000004
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Andrei Berceanu"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "laser-plasma",
+                    "beam",
+                    "nuclear"
+                ],
+                "institution": "Extreme Light Infrastructure - Nuclear Physics",
+                "name": "ELI-NP",
+                "user-codes": [
+                    "warpx",
+                    "fbpic",
+                    "wake-t",
+                    "openpmd",
+                    "lasy",
+                    "optimas"
                 ]
             },
             "type": "Feature"
