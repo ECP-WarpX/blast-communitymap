@@ -1000,6 +1000,33 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.681902845318422,
+                    49.93206065
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Denis Bertini"
+                ],
+                "dev-codes": [
+                    "openpmd"
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "GSI Helmholtzzentrum für Schwerionenforschung",
+                "name": "GSI",
+                "user-codes": [
+                    "warpx",
+                    "openpmd"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
