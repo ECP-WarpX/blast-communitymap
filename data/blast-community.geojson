@@ -1,696 +1,1006 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Advanced Modeling Program",
-          "contacts": [
-              "Jean-Luc Vay",
-              "Remi Lehe",
-              "Axel Huebl"
-          ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "numerics", "high performance computing"],
-          "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
-          "dev-codes": ["warpx", "impactx", "hipace++", "impact", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi"],
-          "user-codes": ["warpx", "impactx", "hipace++", "impact", "lw3d", "postinst", "warp", "ablastr", "amrex", "pyamrex", "lasy", "openpmd", "optimas", "picmi", "wake-t"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.24938,
-          37.87893
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Center for Computational Sciences and Engineering",
-          "contacts": [
-              "Ann Almgren"
-          ],
-          "domain": ["numerics", "high performance computing"],
-          "institution": "Lawrence Berkeley National Laboratory - Applied Mathematics & Computational Research Division",
-          "dev-codes": ["warpx", "artemis", "impactx", "hipace++", "amrex", "pyamrex"],
-          "user-codes": ["warpx", "artemis"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.25266,
-          37.87715
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "BELLA Center",
-          "contacts": [
-              "Eric Esarey",
-              "Carl Schroeder",
-              "Jeroen van Tilborg"
-          ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "fel", "high performance computing"],
-          "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
-          "dev-codes": [],
-          "user-codes": ["warpx", "impactx", "hipace++", "ablastr", "pyamrex", "lasy", "openpmd", "optimas", "picmi", "wake-t"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.24998,
-          37.87932
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Next Generation Light Source (NGLS)",
-          "contacts": [
-              "NGLS team"
-          ],
-          "domain": ["fel", "beams", "accelerators", "high performance computing"],
-          "institution": "Lawrence Berkeley National Laboratory",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.24856,
-          37.87575
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Lawrence Livermore National Laboratory",
-          "contacts": [
-              "David P. Grote",
-              "Justin Angus",
-              "Andreas Kemp"
-          ],
-          "domain": ["laser-plasma", "beams", "fusion", "accelerators", "high performance computing"],
-          "institution": "Lawrence Livermore National Laboratory",
-          "dev-codes": ["warpx"],
-          "user-codes": ["warpx", "openpmd"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.70831,
-          37.68801
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "MPA Plasma Accelerators",
-          "contacts": [
-              "Maxence Thévenet"
-          ],
-          "domain": ["laser-plasma", "beams", "accelerators", "numerics", "high performance computing"],
-          "institution": "Deutsches Elektronen-Synchrotron DESY",
-          "dev-codes": ["warpx", "hipace++", "lasy", "optimas", "wake-t"],
-          "user-codes": ["warpx", "hipace++", "impact", "amrex", "lasy", "openpmd", "optimas", "wake-t"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.878202263435497,
-          53.575294169766124
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "CFEL",
-          "contacts": [
-              "CFEL team"
-          ],
-          "domain": ["beams", "accelerators", "fel"],
-          "institution": "Deutsches Elektronen-Synchrotron DESY",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.88485,
-          53.57916
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "CASUS",
-          "contacts": [
-              "Michael Bussmann"
-          ],
-          "domain": ["laser-plasma"],
-          "institution": "Center for Advanced Systems Understanding (CASUS)",
-          "dev-codes": ["openpmd"],
-          "user-codes": ["openpmd"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.99061,
-          51.15687
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "LANL",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Los Alamos National Laboratory",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.2649,
-          35.8184
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "BNL",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Brookhaven National Laboratory",
-          "dev-codes": [],
-          "user-codes": ["impact", "beambeam3d"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.8719,
-          40.8770
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "LCLS, LCLS-II, FACET-II",
-          "contacts": [
-              "Cho-Kuen Ng",
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "SLAC National Accelerator Laboratory",
-          "dev-codes": ["warpx"],
-          "user-codes": ["impact", "warpx"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.20790,
-          37.41613
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Argonne National Accelerator Laboratory",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Argonne National Accelerator Laboratory",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.9787,
-          41.7096
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Fermilab",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Fermilab",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.2527,
-          41.8316
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "JLab",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Thomas Jefferson National Accelerator Facility",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.4817,
-          37.0966
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "NIU",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Northern Illinous University",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.7831,
-          41.9369
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "MSU",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Michigan State University",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.4840,
-          42.7045
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "ASU",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Arizona State University",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.9307,
-          33.4222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "SBU",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Stony Brook University",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.1186,
-          40.9077
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "KEK",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "KEK High Energy Accelerator Research Organization",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.0716,
-          36.1547
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "NSRRC",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "National Synchrotron Radiation Research Center (NSRRC)",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.00026,
-          24.78228
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "ESS",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "European Spallation Source",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.24723,
-          55.73409
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "IBS",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Institute for Basic Science",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.38511,
-          36.37723
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "IHEP",
-          "contacts": [
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerators"],
-          "institution": "Institute of High Energy Physics",
-          "dev-codes": [],
-          "user-codes": ["impact"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.24353,
-          39.91123
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Laboratoire Interactions, Dynamiques et Lasers",
-          "contacts": [
-              "Henri Vincenti",
-              "Luca Fedeli"
-          ],
-          "domain": ["laser-plasma", "beams", "fusion", "qed", "high performance computing"],
-          "institution": "Université Paris-Saclay, CEA, LIDYL",
-          "dev-codes": ["warpx", "lasy", "picsar-qed"],
-          "user-codes": ["warpx", "amrex", "lasy", "openpmd", "picsar-qed"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.176020302614063,
-          48.704736715511785
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "CERN",
-          "contacts": [
-              "Lorenzo Giacomel",
-              "accelerator team"
-          ],
-          "domain": ["beams", "accelerator", "high performance computing"],
-          "institution": "CERN",
-          "dev-codes": ["warp", "warpx"],
-          "user-codes": ["warp", "warpx", "openpmd", "picmi", "amrex", "pyamrex", "beambeam3d"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.0469,
-          46.2339
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "TAE Technologies",
-          "contacts": [
-              "Sean Dettrick",
-              "Roelof Groenewald"
-          ],
-          "domain": ["beams", "fusion", "cloud computing", "high performance computing"],
-          "institution": "TAE Technologies",
-          "dev-codes": ["warpx", "picmi"],
-          "user-codes": ["warpx", "openpmd", "picmi", "amrex", "pyamrex"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.65123902511594,
-          33.67634020144486
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Avalanche",
-          "contacts": [
-              "Robin Langtry"
-          ],
-          "domain": ["fusion", "cloud computing", "high performance computing"],
-          "institution": "Avalanche",
-          "dev-codes": [],
-          "user-codes": ["warpx", "openpmd", "picmi"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.29915,
-          47.52176
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Zap Energy",
-          "contacts": [
-              "Peter Stoltz"
-          ],
-          "domain": ["fusion", "cloud computing", "high performance computing"],
-          "institution": "Zap Energy",
-          "dev-codes": [],
-          "user-codes": ["warpx", "openpmd", "picmi"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.26179,
-          47.94405
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Modern Electron",
-          "contacts": [
-              "Peter Scherpelz",
-              "Roelof Groenewald"
-          ],
-          "domain": ["energy", "cloud computing", "high performance computing"],
-          "institution": "Modern Electron",
-          "dev-codes": ["warpx", "picmi"],
-          "user-codes": ["warpx", "openpmd", "picmi"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.18407,
-          47.76580
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Intense Computing",
-          "contacts": [
-              "Phil Miller"
-          ],
-          "domain": ["high performance computing"],
-          "institution": "Intense Computing",
-          "dev-codes": ["warpx"],
-          "user-codes": ["warpx"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.1596,
-          32.7145
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Laboratory for Laser Energetics",
-          "contacts": [
-              "John Palastro"
-          ],
-          "domain": ["fusion", "high performance computing"],
-          "institution": "University of Rochester",
-          "dev-codes": ["warpx"],
-          "user-codes": ["warpx", "openpmd"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.63253,
-          43.11317
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Helmholtz Institute Jena",
-          "contacts": [
-              "Bin Liu"
-          ],
-          "domain": ["laser-plasma", "high performance computing"],
-          "institution": "Helmholtz Institute Jena",
-          "dev-codes": ["warpx"],
-          "user-codes": ["warpx", "openpmd"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.58047,
-          50.93445
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "High Energy Physics (HEP) - Department of Physics",
-          "contacts": [
-              "Carl Andreas Lindstrøm"
-          ],
-          "domain": ["laser-plasma", "beams", "accelerators", "high performance computing"],
-          "institution": "University of Oslo",
-          "dev-codes": [],
-          "user-codes": ["impactx", "hipace++", "openpmd", "wake-t"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.71969,
-          59.93757
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-          "name": "Research Technologies Group",
-          "contacts": [
-              "Erik Schnetter"
-          ],
-          "domain": ["astrophysics", "high performance computing"],
-          "institution": "Perimeter Institute for Theoretical Physics",
-          "dev-codes": ["openpmd"],
-          "user-codes": ["openpmd"]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.52764,
-          43.46539
-        ]
-      }
-    }
-  ]
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.24938,
+                    37.87893
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Jean-Luc Vay",
+                    "Remi Lehe",
+                    "Axel Huebl"
+                ],
+                "dev-codes": [
+                    "warpx",
+                    "impactx",
+                    "hipace++",
+                    "impact",
+                    "lw3d",
+                    "postinst",
+                    "warp",
+                    "ablastr",
+                    "amrex",
+                    "pyamrex",
+                    "lasy",
+                    "openpmd",
+                    "optimas",
+                    "picmi"
+                ],
+                "domain": [
+                    "laser-plasma",
+                    "beams",
+                    "fusion",
+                    "accelerators",
+                    "numerics",
+                    "high performance computing"
+                ],
+                "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
+                "name": "Advanced Modeling Program",
+                "user-codes": [
+                    "warpx",
+                    "impactx",
+                    "hipace++",
+                    "impact",
+                    "lw3d",
+                    "postinst",
+                    "warp",
+                    "ablastr",
+                    "amrex",
+                    "pyamrex",
+                    "lasy",
+                    "openpmd",
+                    "optimas",
+                    "picmi",
+                    "wake-t"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.25266,
+                    37.87715
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Ann Almgren"
+                ],
+                "dev-codes": [
+                    "warpx",
+                    "artemis",
+                    "impactx",
+                    "hipace++",
+                    "amrex",
+                    "pyamrex"
+                ],
+                "domain": [
+                    "numerics",
+                    "high performance computing"
+                ],
+                "institution": "Lawrence Berkeley National Laboratory - Applied Mathematics & Computational Research Division",
+                "name": "Center for Computational Sciences and Engineering",
+                "user-codes": [
+                    "warpx",
+                    "artemis"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.24998,
+                    37.87932
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Eric Esarey",
+                    "Carl Schroeder",
+                    "Jeroen van Tilborg"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "laser-plasma",
+                    "beams",
+                    "fusion",
+                    "accelerators",
+                    "fel",
+                    "high performance computing"
+                ],
+                "institution": "Lawrence Berkeley National Laboratory - Accelerator Technology & Applied Physics Division",
+                "name": "BELLA Center",
+                "user-codes": [
+                    "warpx",
+                    "impactx",
+                    "hipace++",
+                    "ablastr",
+                    "pyamrex",
+                    "lasy",
+                    "openpmd",
+                    "optimas",
+                    "picmi",
+                    "wake-t"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.24856,
+                    37.87575
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "NGLS team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "fel",
+                    "beams",
+                    "accelerators",
+                    "high performance computing"
+                ],
+                "institution": "Lawrence Berkeley National Laboratory",
+                "name": "Next Generation Light Source (NGLS)",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -121.70831,
+                    37.68801
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "David P. Grote",
+                    "Justin Angus",
+                    "Andreas Kemp"
+                ],
+                "dev-codes": [
+                    "warpx"
+                ],
+                "domain": [
+                    "laser-plasma",
+                    "beams",
+                    "fusion",
+                    "accelerators",
+                    "high performance computing"
+                ],
+                "institution": "Lawrence Livermore National Laboratory",
+                "name": "Lawrence Livermore National Laboratory",
+                "user-codes": [
+                    "warpx",
+                    "openpmd"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.878202263435497,
+                    53.575294169766124
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Maxence Th\u00e9venet"
+                ],
+                "dev-codes": [
+                    "warpx",
+                    "hipace++",
+                    "lasy",
+                    "optimas",
+                    "wake-t"
+                ],
+                "domain": [
+                    "laser-plasma",
+                    "beams",
+                    "accelerators",
+                    "numerics",
+                    "high performance computing"
+                ],
+                "institution": "Deutsches Elektronen-Synchrotron DESY",
+                "name": "MPA Plasma Accelerators",
+                "user-codes": [
+                    "warpx",
+                    "hipace++",
+                    "impact",
+                    "amrex",
+                    "lasy",
+                    "openpmd",
+                    "optimas",
+                    "wake-t"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.88485,
+                    53.57916
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "CFEL team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators",
+                    "fel"
+                ],
+                "institution": "Deutsches Elektronen-Synchrotron DESY",
+                "name": "CFEL",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.99061,
+                    51.15687
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Michael Bussmann"
+                ],
+                "dev-codes": [
+                    "openpmd"
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Center for Advanced Systems Understanding (CASUS)",
+                "name": "CASUS",
+                "user-codes": [
+                    "openpmd"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -106.2649,
+                    35.8184
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Los Alamos National Laboratory",
+                "name": "LANL",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -72.8719,
+                    40.877
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Brookhaven National Laboratory",
+                "name": "BNL",
+                "user-codes": [
+                    "impact",
+                    "beambeam3d"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.2079,
+                    37.41613
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Cho-Kuen Ng",
+                    "accelerator team"
+                ],
+                "dev-codes": [
+                    "warpx"
+                ],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "SLAC National Accelerator Laboratory",
+                "name": "LCLS, LCLS-II, FACET-II",
+                "user-codes": [
+                    "impact",
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -87.9787,
+                    41.7096
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Argonne National Accelerator Laboratory",
+                "name": "Argonne National Accelerator Laboratory",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.2527,
+                    41.8316
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Fermilab",
+                "name": "Fermilab",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -76.4817,
+                    37.0966
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Thomas Jefferson National Accelerator Facility",
+                "name": "JLab",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.7831,
+                    41.9369
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Northern Illinous University",
+                "name": "NIU",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -84.484,
+                    42.7045
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Michigan State University",
+                "name": "MSU",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -111.9307,
+                    33.4222
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Arizona State University",
+                "name": "ASU",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.1186,
+                    40.9077
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Stony Brook University",
+                "name": "SBU",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    140.0716,
+                    36.1547
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "KEK High Energy Accelerator Research Organization",
+                "name": "KEK",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    121.00026,
+                    24.78228
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "National Synchrotron Radiation Research Center (NSRRC)",
+                "name": "NSRRC",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.24723,
+                    55.73409
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "European Spallation Source",
+                "name": "ESS",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    127.38511,
+                    36.37723
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Institute for Basic Science",
+                "name": "IBS",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    116.24353,
+                    39.91123
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "Institute of High Energy Physics",
+                "name": "IHEP",
+                "user-codes": [
+                    "impact"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.176020302614063,
+                    48.704736715511785
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Henri Vincenti",
+                    "Luca Fedeli"
+                ],
+                "dev-codes": [
+                    "warpx",
+                    "lasy",
+                    "picsar-qed"
+                ],
+                "domain": [
+                    "laser-plasma",
+                    "beams",
+                    "fusion",
+                    "qed",
+                    "high performance computing"
+                ],
+                "institution": "Universit\u00e9 Paris-Saclay, CEA, LIDYL",
+                "name": "Laboratoire Interactions, Dynamiques et Lasers",
+                "user-codes": [
+                    "warpx",
+                    "amrex",
+                    "lasy",
+                    "openpmd",
+                    "picsar-qed"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    6.0469,
+                    46.2339
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Lorenzo Giacomel",
+                    "accelerator team"
+                ],
+                "dev-codes": [
+                    "warp",
+                    "warpx"
+                ],
+                "domain": [
+                    "beams",
+                    "accelerator",
+                    "high performance computing"
+                ],
+                "institution": "CERN",
+                "name": "CERN",
+                "user-codes": [
+                    "warp",
+                    "warpx",
+                    "openpmd",
+                    "picmi",
+                    "amrex",
+                    "pyamrex",
+                    "beambeam3d"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -117.65123902511594,
+                    33.67634020144486
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Sean Dettrick",
+                    "Roelof Groenewald"
+                ],
+                "dev-codes": [
+                    "warpx",
+                    "picmi"
+                ],
+                "domain": [
+                    "beams",
+                    "fusion",
+                    "cloud computing",
+                    "high performance computing"
+                ],
+                "institution": "TAE Technologies",
+                "name": "TAE Technologies",
+                "user-codes": [
+                    "warpx",
+                    "openpmd",
+                    "picmi",
+                    "amrex",
+                    "pyamrex"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.29915,
+                    47.52176
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Robin Langtry"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "fusion",
+                    "cloud computing",
+                    "high performance computing"
+                ],
+                "institution": "Avalanche",
+                "name": "Avalanche",
+                "user-codes": [
+                    "warpx",
+                    "openpmd",
+                    "picmi"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.26179,
+                    47.94405
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Peter Stoltz"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "fusion",
+                    "cloud computing",
+                    "high performance computing"
+                ],
+                "institution": "Zap Energy",
+                "name": "Zap Energy",
+                "user-codes": [
+                    "warpx",
+                    "openpmd",
+                    "picmi"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.18407,
+                    47.7658
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Peter Scherpelz",
+                    "Roelof Groenewald"
+                ],
+                "dev-codes": [
+                    "warpx",
+                    "picmi"
+                ],
+                "domain": [
+                    "energy",
+                    "cloud computing",
+                    "high performance computing"
+                ],
+                "institution": "Modern Electron",
+                "name": "Modern Electron",
+                "user-codes": [
+                    "warpx",
+                    "openpmd",
+                    "picmi"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -117.1596,
+                    32.7145
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Phil Miller"
+                ],
+                "dev-codes": [
+                    "warpx"
+                ],
+                "domain": [
+                    "high performance computing"
+                ],
+                "institution": "Intense Computing",
+                "name": "Intense Computing",
+                "user-codes": [
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.63253,
+                    43.11317
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "John Palastro"
+                ],
+                "dev-codes": [
+                    "warpx"
+                ],
+                "domain": [
+                    "fusion",
+                    "high performance computing"
+                ],
+                "institution": "University of Rochester",
+                "name": "Laboratory for Laser Energetics",
+                "user-codes": [
+                    "warpx",
+                    "openpmd"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    11.58047,
+                    50.93445
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Bin Liu"
+                ],
+                "dev-codes": [
+                    "warpx"
+                ],
+                "domain": [
+                    "laser-plasma",
+                    "high performance computing"
+                ],
+                "institution": "Helmholtz Institute Jena",
+                "name": "Helmholtz Institute Jena",
+                "user-codes": [
+                    "warpx",
+                    "openpmd"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.71969,
+                    59.93757
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Carl Andreas Lindstr\u00f8m"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "laser-plasma",
+                    "beams",
+                    "accelerators",
+                    "high performance computing"
+                ],
+                "institution": "University of Oslo",
+                "name": "High Energy Physics (HEP) - Department of Physics",
+                "user-codes": [
+                    "impactx",
+                    "hipace++",
+                    "openpmd",
+                    "wake-t"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -80.52764,
+                    43.46539
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Erik Schnetter"
+                ],
+                "dev-codes": [
+                    "openpmd"
+                ],
+                "domain": [
+                    "astrophysics",
+                    "high performance computing"
+                ],
+                "institution": "Perimeter Institute for Theoretical Physics",
+                "name": "Research Technologies Group",
+                "user-codes": [
+                    "openpmd"
+                ]
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
 }
