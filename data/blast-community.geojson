@@ -1968,6 +1968,34 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -87.98301376453666,
+                    41.717763250000004
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Jeffrey M. Larson",
+                    "Stephen Hudson"
+                ],
+                "dev-codes": [
+                    "optimas"
+                ],
+                "domain": [
+                    "accelerators",
+                    "high-performance computing"
+                ],
+                "institution": "Argonne National Laboratory",
+                "name": "Mathematics and Computer Science Division",
+                "user-codes": [
+                    ""
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
