@@ -1082,6 +1082,39 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.221735389647204,
+                    48.70860405
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Igor Andriyash"
+                ],
+                "dev-codes": [
+                    "lasy",
+                    "fbpic",
+                    "warpx"
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Centre national de la recherche scientifique",
+                "name": "Laboratoire d\u2019Optique Appliqu\u00e9e (LOA)",
+                "user-codes": [
+                    "fbpic",
+                    "warpx",
+                    "hipace++",
+                    "lasy",
+                    "openpmd",
+                    "optimas"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
