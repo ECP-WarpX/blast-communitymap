@@ -1115,6 +1115,30 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -105.24380865863031,
+                    40.01714451232903
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "David Bruhwiler"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "fusion"
+                ],
+                "institution": "RadiaSoft LLC",
+                "name": "RadiaSoft",
+                "user-codes": [
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
