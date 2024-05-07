@@ -1126,16 +1126,25 @@
             },
             "properties": {
                 "contacts": [
-                    "David Bruhwiler"
+                    "David Bruhwiler",
+                    "Nathan Cook"
                 ],
                 "dev-codes": [],
                 "domain": [
-                    "fusion"
+                    "fusion",
+                    "laser-plasma",
+                    "beam",
+                    "energy"
                 ],
                 "institution": "RadiaSoft LLC",
                 "name": "RadiaSoft",
                 "user-codes": [
-                    "warpx"
+                    "warpx",
+                    "warp",
+                    "impact-z",
+                    "impact-t",
+                    "fbpic",
+                    "openpmd"
                 ]
             },
             "type": "Feature"
