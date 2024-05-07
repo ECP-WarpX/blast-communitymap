@@ -1139,6 +1139,7 @@
                 "contacts": [
                     "Philippe Piot",
                     "Wei-Hou Tan",
+                    "John Wieland",
                     "accelerator team"
                 ],
                 "dev-codes": [],
@@ -1150,7 +1151,8 @@
                 "name": "Department of Physics",
                 "user-codes": [
                     "warpx",
-                    "impact"
+                    "impact",
+                    "impactx"
                 ]
             },
             "type": "Feature"
@@ -1178,6 +1180,33 @@
                 "name": "Computational Autonomy Group",
                 "user-codes": [
                     "warpx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -87.6016576561948,
+                    41.79100005
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Sergei Kladov"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "beams",
+                    "accelerators"
+                ],
+                "institution": "The University of Chicago",
+                "name": "UChicago Department of Physics",
+                "user-codes": [
+                    "impactx"
                 ]
             },
             "type": "Feature"
