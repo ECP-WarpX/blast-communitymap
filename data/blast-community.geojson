@@ -1943,6 +1943,31 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -106.6327578,
+                    52.1297509
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Andrei Smolyakov"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "magnetically confined plasmas",
+                    "fusion"
+                ],
+                "institution": "University of Saskatchewan",
+                "name": "Department of Physics and Engineering Physics",
+                "user-codes": [
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
