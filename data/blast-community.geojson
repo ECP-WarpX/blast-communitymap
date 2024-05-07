@@ -1910,6 +1910,36 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    13.20463,
+                    55.71029
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Jonas Bj\u00f6rklund Svensson"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "beam-plasma",
+                    "accelerators",
+                    "x-ray generation"
+                ],
+                "institution": "Department of Physics, Lund University",
+                "name": "Synchrotron Radiation Research",
+                "user-codes": [
+                    "hipace++",
+                    "optimas",
+                    "wake-t"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
