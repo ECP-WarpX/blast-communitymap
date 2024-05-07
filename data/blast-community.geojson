@@ -1154,6 +1154,33 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -83.71003893509601,
+                    42.2942142
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Thomas Marks"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "hall thruster",
+                    "plasma"
+                ],
+                "institution": "University of Michigan",
+                "name": "Computational Autonomy Group",
+                "user-codes": [
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
