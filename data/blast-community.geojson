@@ -444,31 +444,6 @@
         {
             "geometry": {
                 "coordinates": [
-                    -88.7831,
-                    41.9369
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "contacts": [
-                    "accelerator team"
-                ],
-                "dev-codes": [],
-                "domain": [
-                    "beams",
-                    "accelerators"
-                ],
-                "institution": "Northern Illinous University",
-                "name": "NIU",
-                "user-codes": [
-                    "impact"
-                ]
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
                     -84.484,
                     42.7045
                 ],
@@ -1042,7 +1017,8 @@
                 ],
                 "dev-codes": [],
                 "domain": [
-                    "beam"
+                    "beam",
+                    "accelerators"
                 ],
                 "institution": "Massachusetts Institute of Technology",
                 "name": "IsoDAR experiment",
@@ -1068,6 +1044,7 @@
                 "domain": [
                     "laser-plasma",
                     "beam",
+                    "accelerators",
                     "nuclear"
                 ],
                 "institution": "Extreme Light Infrastructure - Nuclear Physics",
@@ -1134,6 +1111,7 @@
                     "fusion",
                     "laser-plasma",
                     "beam",
+                    "accelerators",
                     "energy"
                 ],
                 "institution": "RadiaSoft LLC",
@@ -1145,6 +1123,34 @@
                     "impact-t",
                     "fbpic",
                     "openpmd"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.78267841443035,
+                    41.937093399999995
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Philippe Piot",
+                    "Wei-Hou Tan",
+                    "accelerator team"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "beam",
+                    "accelerators"
+                ],
+                "institution": "Northern Illinois University",
+                "name": "Department of Physics",
+                "user-codes": [
+                    "warpx",
+                    "impact"
                 ]
             },
             "type": "Feature"
