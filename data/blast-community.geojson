@@ -1019,11 +1019,36 @@
                 "domain": [
                     "laser-plasma"
                 ],
-                "institution": "GSI Helmholtzzentrum für Schwerionenforschung",
+                "institution": "GSI Helmholtzzentrum f\u00fcr Schwerionenforschung",
                 "name": "GSI",
                 "user-codes": [
                     "warpx",
                     "openpmd"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -71.09130,
+                    42.36101
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Daniel Winklehner"
+                ],
+                "dev-codes": [
+                ],
+                "domain": [
+                    "beam"
+                ],
+                "institution": "Massachusetts Institute of Technology",
+                "name": "IsoDAR experiment",
+                "user-codes": [
+                    "warp"
                 ]
             },
             "type": "Feature"
