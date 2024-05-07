@@ -359,6 +359,7 @@
                     "Cho-Kuen Ng",
                     "Auralee Edelen",
                     "Christopher Mayes",
+                    "Spencer Gessner",
                     "accelerator team"
                 ],
                 "dev-codes": [
@@ -375,7 +376,8 @@
                 "user-codes": [
                     "impact",
                     "openpmd",
-                    "warpx"
+                    "warpx",
+                    "hipace++"
                 ]
             },
             "type": "Feature"
@@ -1910,6 +1912,33 @@
                 "user-codes": [
                     "warpx",
                     "impact-t",
+                    "openpmd"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -120.66464833678835,
+                    35.3074623
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Max Varverakis",
+                    "Robert Holtzapple"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "plasma-wakefield",
+                    "beams"
+                ],
+                "institution": "California Polytechnic State University",
+                "name": "Department of Physics",
+                "user-codes": [
+                    "hipace++",
                     "openpmd"
                 ]
             },
