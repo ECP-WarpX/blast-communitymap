@@ -28,7 +28,8 @@
                     "lasy",
                     "openpmd",
                     "optimas",
-                    "picmi"
+                    "picmi",
+                    "fbpic"
                 ],
                 "domain": [
                     "laser-plasma",
@@ -55,7 +56,8 @@
                     "openpmd",
                     "optimas",
                     "picmi",
-                    "wake-t"
+                    "wake-t",
+                    "fbpic"
                 ]
             },
             "type": "Feature"
@@ -128,7 +130,8 @@
                     "openpmd",
                     "optimas",
                     "picmi",
-                    "wake-t"
+                    "wake-t",
+                    "fbpic"
                 ]
             },
             "type": "Feature"
@@ -172,7 +175,8 @@
                 "contacts": [
                     "David P. Grote",
                     "Justin Angus",
-                    "Andreas Kemp"
+                    "Andreas Kemp",
+                    "A. Longman"
                 ],
                 "dev-codes": [
                     "warpx"
@@ -188,7 +192,8 @@
                 "name": "Lawrence Livermore National Laboratory",
                 "user-codes": [
                     "warpx",
-                    "openpmd"
+                    "openpmd",
+                    "fbpic"
                 ]
             },
             "type": "Feature"
@@ -203,14 +208,17 @@
             },
             "properties": {
                 "contacts": [
-                    "Maxence Th\u00e9venet"
+                    "Maxence Th\u00e9venet",
+                    "Kristjan P\u00f5der",
+                    "Andreas Maier"
                 ],
                 "dev-codes": [
                     "warpx",
                     "hipace++",
                     "lasy",
                     "optimas",
-                    "wake-t"
+                    "wake-t",
+                    "fbpic"
                 ],
                 "domain": [
                     "laser-plasma",
@@ -229,7 +237,8 @@
                     "lasy",
                     "openpmd",
                     "optimas",
-                    "wake-t"
+                    "wake-t",
+                    "fbpic"
                 ]
             },
             "type": "Feature"
@@ -1070,7 +1079,9 @@
             },
             "properties": {
                 "contacts": [
-                    "Igor Andriyash"
+                    "Igor Andriyash",
+                    "St\u00e9phane Sebban",
+                    "C\u00e9dric Thaury"
                 ],
                 "dev-codes": [
                     "lasy",
@@ -1207,6 +1218,577 @@
                 "name": "UChicago Department of Physics",
                 "user-codes": [
                     "impactx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.933721043274003,
+                    54.58414875
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "M. J. V. Streeter",
+                    "G. Sarri"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Queen's University Belfast",
+                "name": "School of Mathematics and Physics",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    121.4283949471511,
+                    31.200891149999997
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Pan-Fei Geng",
+                    "Min Chen",
+                    "Zheng-Ming Sheng"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Shanghai Jiao Tong University",
+                "name": "Shanghai Jiao Tong University",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.2305504,
+                    45.4767975
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Andrea Frazzitta",
+                    "Andrea Renato Rossi"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "INFN",
+                "name": "Department of Physics",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.6724888,
+                    41.8209407
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Alessandro Curcio"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "INFN-LNF",
+                "name": "INFN-LNF",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -1.2556684826092037,
+                    51.75870755
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "A. Picksley",
+                    "S.M. Hooker"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "University of Oxford",
+                "name": "University of Oxford",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    114.3947835,
+                    22.7053282
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "H. Peng"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Shenzhen Technology University",
+                "name": "1Shenzhen Key Laboratory of Ultraintense Laser and Advanced Material Technology, Center for Advanced Material Diagnostic Technology, and College of Engineering Physics",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    77.2148081,
+                    28.6881517
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Devki Nandan Gupta",
+                    "Mukesh Chand Gurjar",
+                    "Arohi Jain"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "University of Delhi",
+                "name": "Department of Physics and Astrophysics",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    2.1763706,
+                    48.697235
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "I. Moulanier",
+                    "B. Cros"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "CNRS, Universit\u00e9 Paris Saclay",
+                "name": "LPGP",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    25.182768750200275,
+                    54.6437041
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "V. Tomkus"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Center for Physical Sciences and Technology",
+                "name": "Center for Physical Sciences and Technology",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -51.22075940435953,
+                    -30.031384799999998
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "A. Bonatto"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Federal University of Health Sciences of Porto Alegre",
+                "name": "Federal University of Health Sciences of Porto Alegre",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    34.81334092444211,
+                    31.907849900000002
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "C\u00e9line S. Hue"
+                ],
+                "dev-codes": [
+                    "Yang Wan"
+                ],
+                "domain": [
+                    "ORCID logo"
+                ],
+                "institution": "Weizmann Institute of Science",
+                "name": "Department of Physics of Complex Systems",
+                "user-codes": [
+                    ";"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    34.81334092444211,
+                    31.907849900000002
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "C\u00e9line S. Hue",
+                    "Yang Wan",
+                    "Eitan Y. Levine",
+                    "Victor Malka"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Weizmann Institute of Science",
+                "name": "Department of Physics of Complex Systems",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    11.673667875399646,
+                    48.2687526
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Andreas Doepp"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Ludwig-Maximilian-Universit\u00e4t M\u00fcnchen",
+                "name": "Ludwig-Maximilian-Universit\u00e4t M\u00fcnchen",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    135.50883944764,
+                    34.6466164
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Driss Oumbarek Espinos",
+                    "Naveen C. Pathak",
+                    "Alexei Zhidkov",
+                    "Tomonao Hosokai"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Osaka University",
+                "name": "Institute of Scientific and Industrial Research",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    10.424962609884,
+                    43.7183075
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Paolo Tomassini",
+                    "Francesco Massimo",
+                    "Luca Labate",
+                    "Leonida A. Gizzi"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "INO-CNR",
+                "name": "Intense Laser Irradiation Laboratory",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    129.1895359,
+                    35.5710152
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "S.-Y. Kim"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Ulsan National Institute of Science and Technology",
+                "name": "Department of Physics",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -4.241956565778082,
+                    55.8618812
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "A Maitrallain",
+                    "D A Jaroszynski"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "University of Strathclyde",
+                "name": "SUPA, Department of Physics",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    121.2345299,
+                    31.3817293
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Wentao Wang",
+                    "Jiansheng Liu",
+                    "Ruxin Li"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Chinese Academy of Sciences (CAS)",
+                "name": "Shanghai Institute of Optics and Fine Mechanics (SIOM)",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -83.71389390403192,
+                    42.2914861
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Y. Ma",
+                    "D. Seipt",
+                    "K. Krushelnick",
+                    "A. G. R. Thomas"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "University of Michigan",
+                "name": "Gerard Mourou Center for Ultrafast Optical Science",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.4396467,
+                    34.0730153
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "P. Manwani",
+                    "N. Majernik",
+                    "J. B. Rosenzweig"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "UCLA",
+                "name": "Department of Physics and Astronomy",
+                "user-codes": [
+                    "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -2.232722177622702,
+                    53.465651449999996
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "A Bonatto"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "University of Manchester",
+                "name": "School of Physics and Astronomy",
+                "user-codes": [
+                    "fbpic"
                 ]
             },
             "type": "Feature"
