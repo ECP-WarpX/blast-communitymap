@@ -357,19 +357,24 @@
             "properties": {
                 "contacts": [
                     "Cho-Kuen Ng",
+                    "Auralee Edelen",
+                    "Christopher Mayes",
                     "accelerator team"
                 ],
                 "dev-codes": [
-                    "warpx"
+                    "warpx",
+                    "openpmd"
                 ],
                 "domain": [
                     "beams",
-                    "accelerators"
+                    "accelerators",
+                    "laser-plasma"
                 ],
                 "institution": "SLAC National Accelerator Laboratory",
-                "name": "LCLS, LCLS-II, FACET-II",
+                "name": "LCLS-II, FACET-II",
                 "user-codes": [
                     "impact",
+                    "openpmd",
                     "warpx"
                 ]
             },
@@ -1875,6 +1880,33 @@
                 "name": "Department of Engineering Physics",
                 "user-codes": [
                     "warpx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -84.3119306644879,
+                    35.93013315
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Scott A Klasky",
+                    "Norbert Podhorszki"
+                ],
+                "dev-codes": [
+                    "openpmd"
+                ],
+                "domain": [
+                    "high-performance computing"
+                ],
+                "institution": "Oak Ridge National Laboratory",
+                "name": "National Center Computational Sciences",
+                "user-codes": [
+                    ""
                 ]
             },
             "type": "Feature"
