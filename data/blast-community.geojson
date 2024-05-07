@@ -1367,18 +1367,18 @@
             },
             "properties": {
                 "contacts": [
-                    "H. Peng"
+                    "H. Peng",
+                    "S.\u2009C. Ruan"
                 ],
-                "dev-codes": [
-                    ""
-                ],
+                "dev-codes": [],
                 "domain": [
                     "laser-plasma"
                 ],
                 "institution": "Shenzhen Technology University",
                 "name": "1Shenzhen Key Laboratory of Ultraintense Laser and Advanced Material Technology, Center for Advanced Material Diagnostic Technology, and College of Engineering Physics",
                 "user-codes": [
-                    "fbpic"
+                    "fbpic",
+                    "warpx"
                 ]
             },
             "type": "Feature"
@@ -1500,47 +1500,21 @@
             },
             "properties": {
                 "contacts": [
-                    "C\u00e9line S. Hue"
-                ],
-                "dev-codes": [
-                    "Yang Wan"
-                ],
-                "domain": [
-                    "ORCID logo"
-                ],
-                "institution": "Weizmann Institute of Science",
-                "name": "Department of Physics of Complex Systems",
-                "user-codes": [
-                    ";"
-                ]
-            },
-            "type": "Feature"
-        },
-        {
-            "geometry": {
-                "coordinates": [
-                    34.81334092444211,
-                    31.907849900000002
-                ],
-                "type": "Point"
-            },
-            "properties": {
-                "contacts": [
+                    "Dan Levy",
                     "C\u00e9line S. Hue",
                     "Yang Wan",
                     "Eitan Y. Levine",
                     "Victor Malka"
                 ],
-                "dev-codes": [
-                    ""
-                ],
+                "dev-codes": [],
                 "domain": [
                     "laser-plasma"
                 ],
                 "institution": "Weizmann Institute of Science",
                 "name": "Department of Physics of Complex Systems",
                 "user-codes": [
-                    "fbpic"
+                    "fbpic",
+                    "warpx"
                 ]
             },
             "type": "Feature"
@@ -1789,6 +1763,118 @@
                 "name": "School of Physics and Astronomy",
                 "user-codes": [
                     "fbpic"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    116.24540759502833,
+                    39.9102048
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Jia Wang",
+                    "Ming Zeng",
+                    "Dazhang Li",
+                    "Xiaoning Wang",
+                    "Jie Gao"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Chinese Academy of Sciences",
+                "name": "Institute of High Energy Physics",
+                "user-codes": [
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -76.93686239976326,
+                    38.991951400000005
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "B. Miao",
+                    "H.M.Milchberg",
+                    "J.J. Rocca"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "University of Maryland",
+                "name": "Institute for Research in Electronics and Applied Physics and Department of Physics",
+                "user-codes": [
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    9.23221040387672,
+                    45.479028799999995
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Francesco Mirani",
+                    "Matteo Passoni"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "laser-plasma"
+                ],
+                "institution": "Politecnico di Milano",
+                "name": "Politecnico di Milano",
+                "user-codes": [
+                    "warpx"
+                ]
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -84.0844157,
+                    39.7815669
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Benjamin M. Knight",
+                    "Anil K. Patnaik"
+                ],
+                "dev-codes": [
+                    ""
+                ],
+                "domain": [
+                    "fusion"
+                ],
+                "institution": "Air Force Institute of Technology",
+                "name": "Department of Engineering Physics",
+                "user-codes": [
+                    "warpx"
                 ]
             },
             "type": "Feature"
