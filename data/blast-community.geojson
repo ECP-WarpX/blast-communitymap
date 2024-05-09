@@ -1336,16 +1336,23 @@
             "properties": {
                 "contacts": [
                     "A. Picksley",
-                    "S.M. Hooker"
+                    "S.M. Hooker",
+                    "James Chappell"
                 ],
                 "dev-codes": [],
                 "domain": [
                     "laser-plasma"
                 ],
                 "institution": "University of Oxford",
-                "name": "University of Oxford",
+                "name": "Laser-plasma accelerators Group",
                 "user-codes": [
-                    "fbpic"
+                    "warpx",
+                    "fbpic",
+                    "hipace++",
+                    "wake-t",
+                    "lasy",
+                    "optimas",
+                    "openpmd"
                 ]
             },
             "type": "Feature"
