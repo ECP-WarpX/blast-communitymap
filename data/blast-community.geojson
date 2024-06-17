@@ -2003,6 +2003,31 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.1740421,
+                    51.4981715
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "Bao Nguyen"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "accelerators",
+                    "beam-beam"
+                ],
+                "institution": "Imperial College London",
+                "name": "Imperial College London",
+                "user-codes": [
+                    "WarpX"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
