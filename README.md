@@ -24,3 +24,4 @@ Another important way to give back to the BLAST community is by properly citing 
 - [HiPACE++](https://hipace.readthedocs.io/en/latest/acknowledge_hipace.html)
 - [ImpactX](https://impactx.readthedocs.io/en/latest/acknowledge_us.html)
 - [openPMD](https://openpmd-api.readthedocs.io/en/latest/citation.html)
+- [pyAMReX](https://pyamrex.readthedocs.io/en/latest/acknowledge_us.html)
