@@ -2028,6 +2028,32 @@
                 ]
             },
             "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.2531762256235,
+                    47.92963520714184
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "contacts": [
+                    "S. Eric Clark"
+                ],
+                "dev-codes": [],
+                "domain": [
+                    "fusion"
+                ],
+                "institution": "Helion Energy",
+                "name": "Helion Energy",
+                "user-codes": [
+                    "WarpX",
+                    "AMReX",
+                    "pyAMReX"
+                ]
+            },
+            "type": "Feature"
         }
     ],
     "type": "FeatureCollection"
